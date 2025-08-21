@@ -1,3 +1,5 @@
+# Vocabulary
+
 # JavaScript inline 
  (INSIDE HTML)
 
@@ -89,5 +91,30 @@ array has three strings inside
 
 console.log(name, age, isStudent, hobbies, person);
 
+
+# Operators
+Types of operators in JS
+
+# Arithmetiv Operators
+( +, -, *, /, %, ** )
+
+# Assignment Operators 
+( =, +=, -=, *=, /=, %=)
+- These will reassign your variables
+
+# Comparisson Operators
+- ==
+- ===
+- != 
+- !== 
+- > 
+- < 
+- >=
+- <= 
+
+# Logical Operators
+ - && -  "truthy?" 
+ - || - OR operator if no variable 
+ - ! - if not true operator
 
 
