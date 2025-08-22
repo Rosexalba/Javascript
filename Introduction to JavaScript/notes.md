@@ -121,20 +121,20 @@ Types of operators in JS
 
 - Arithmetic Operators
 
-    const x = 10;
-    const y = 5;
+    - const x = 10;
+    - const y = 5;
 
-     console.log(x + y); // 15
-     console.log(x - y); // 5
-     console.log(x * y); // 50
-     console.log(x / y); // 2
-     console.log(x & y); // 0
+     - console.log(x + y); // 15
+     - console.log(x - y); // 5
+     - console.log(x * y); // 50
+     - console.log(x / y); // 2
+     - console.log(x & y); // 0
 
 -  Comparison Operators 
 
-     console.log(x >y); // true
-     console.log(x === "10"); // false
-     console.log(x == "10"); // true
-     console.log(x !== "10"); // true
+     - console.log(x >y); // true
+     - console.log(x === "10"); // false
+     - console.log(x == "10"); // true
+     - console.log(x !== "10"); // true
 
 
