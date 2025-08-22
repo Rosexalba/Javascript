@@ -95,7 +95,7 @@ console.log(name, age, isStudent, hobbies, person);
 # Operators
 Types of operators in JS
 
-# Arithmetiv Operators
+# Arithmetic Operators
 ( +, -, *, /, %, ** )
 
 # Assignment Operators 
@@ -116,5 +116,25 @@ Types of operators in JS
  - && -  "truthy?" 
  - || - OR operator if no variable 
  - ! - if not true operator
+
+< script>
+
+- Arithmetic Operators
+
+    const x = 10;
+    const y = 5;
+
+     console.log(x + y); // 15
+     console.log(x - y); // 5
+     console.log(x * y); // 50
+     console.log(x / y); // 2
+     console.log(x & y); // 0
+
+-  Comparison Operators 
+
+     console.log(x >y); // true
+     console.log(x === "10"); // false
+     console.log(x == "10"); // true
+     console.log(x !== "10"); // true
 
 
