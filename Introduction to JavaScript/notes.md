@@ -167,3 +167,58 @@ Example:
  - console.warn("This is a warning")
 - console.error("This is an error")
 
+
+
+
+
+
+# Project A simple Calculator 
+
+in JS File
+
+- let num1 = prompt("Enter first number")
+- let num2 = prompt("Enter Second number")
+
+- num1 = parseFloat(num1)
+- num2 = parseFloat(num2)
+
+console.log(typeof num1, typeof num2)
+
+- ParseFloat will force it be a number without it when you enter typeof in console log it will show up as strings. but with the above example the console outputs number number.
+
+
+Next steps: 
+
+- const sum = num1 + num2;
+- const diff = num1 + num2;
+- const product = num1 * num2;
+- const quotient = num1 / num2;
+
+
+- console.log(` Sum: $ { sum } )
+- console.log(` Diff: ${ diff})
+- console.log(`Product: ${product})
+- console.log(`Quotient: ${quotient})
+
+if you dont enter anything the condole will log all of the above as NAN - non number
+
+if you enter 5 and then another 5 the console will out put the following
+- sum: 10 
+- Diff: 10
+- Product: 25
+- Quotient: 1
+
+- This program asked for two numbers and reforms basic arithmetic operations
+
+# Key Takeaways
+- JS is key sensitive
+- variables can be declared using let and const
+- JS has different datatypes
+- Operators allow arithmetic and logical opertaions and use console.log for debugging
+- Comments help make code readable and maintainable
+
+
+
+
+
+
