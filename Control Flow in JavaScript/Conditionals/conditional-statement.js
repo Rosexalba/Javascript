@@ -33,3 +33,22 @@ if(marks >= 90) {
     console.log("Time to Work!")
    }
 
+
+// checking for multiple conditions with (&&. ||)
+
+const age = 20;
+const hasDrivingLicense = false;
+
+if(age >= 18 || hasDrivingLicense) {
+    console.log("you can drive")
+} else {
+    console.log("you can not drive")
+}
+
+// Ternary Operator ( ? :)
+
+const isLoggedIn = false;
+
+const msg = isLoggedIn ? "Welcome back!" : "Please log in.";
+
+console.log(msg);
