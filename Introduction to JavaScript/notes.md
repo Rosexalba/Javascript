@@ -103,14 +103,14 @@ Types of operators in JS
 - These will reassign your variables
 
 # Comparisson Operators
-- ==
+(- ==
 - ===
 - != 
 - !== 
-- > 
+- >  
 - < 
 - >=
-- <= 
+- <= )
 
 # Logical Operators
  - && -  "truthy?" 
