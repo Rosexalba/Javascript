@@ -200,7 +200,7 @@ Next steps:
 - console.log(`Product: ${product})
 - console.log(`Quotient: ${quotient})
 
-if you dont enter anything the console will log all of the above as NAN - non number
+if you dont enter anything the console will log all of the above as NAN - non number ---
 
 if you enter 5 and then another 5 the console will out put the following
 - sum: 10 
