@@ -146,3 +146,40 @@ console.log("Thank you.")
 
 do and while loops are dangerous because if you remove your implementation 0 will never change and it will be stuck in a loop going crazy.
 
+# Advanced loops
+used for arrays and it calls a callback on each element in that array
+
+1. ForEach
+
+- const fruits = ["Apple", "Banana", "Cherry"];
+
+- fruits.forEach(function(fruit) {
+    - console.log(fruit);
+- });
+
+2. For of
+used for array and iterable objects 
+
+- const numbers = [1, 2, 3, 4, 5];
+
+- for (let num of numbers) {
+    console.log(num)
+}
+
+3. for in 
+used for objects so you can iterate over the keys 
+
+- const person = {
+    - name: "Alice",
+    - age: 25, 
+    - city: "New York"
+};
+
+- for(const key in person) {
+    - console.log("key=", key)
+    - console.log(`person [ ${key}]:val =, person[ key]);
+}
+
+
+
+
