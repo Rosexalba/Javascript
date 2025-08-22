@@ -1,0 +1,8 @@
+# To Do List Using Loop Operators
+
+- Goal: 
+ - ask the user for tasks until they enter 'done'
+ - store the tasks in an array
+ - display the final task list
+
+ 
