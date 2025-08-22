@@ -117,6 +117,8 @@ Types of operators in JS
  - || - OR operator if no variable 
  - ! - if not true operator
 
+Example:
+
 < script>
 
 - Arithmetic Operators
@@ -137,4 +139,31 @@ Types of operators in JS
      - console.log(x == "10"); // true
      - console.log(x !== "10"); // true
 
+- Tip: Phil only uses strict operators 
+
+# Comments and Console logging for Debugging
+Why use comments: It helps explain the code for future refrence, makes debugging easier and helps ignore code during testing
+- console.log : is a message in the console
+
+- Types of comments 
+ 1. single line comment: //this is a comment
+ 2. multiline comment: /** * this is a multiline * comment * * */
+The multiline comment helps explain more complex code 
+
+- Console.logging for debugging 
+ 1. console.log(): displays output in the browser console
+ 2. console.warn(): will show warning message
+ 3. console.error(): Displays an error message
+  
+
+Example: 
+
+-    // this is a single line comment
+     /* this is a multiline comment 
+     it is ignored by javascript
+     */
+
+ - console.log ("This is a message in the console")
+ - console.warn("This is a warning")
+- console.error("This is an error")
 
