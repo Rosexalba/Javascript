@@ -114,3 +114,26 @@ console.log("isPerfectSquare(27)", isPerfectSquare (27));
 
 - in this example it is checking to see if multiple numbers are perfect squares and it will output true or false depending on if the number is a perfect square number or not prettyy cool.
 
+# Generating random numbers
+ 
+ # math.random()
+ : generates random decimal numbers between 0 - 10
+
+ // math.random() generates random decimal number between 0-10
+console.log(Math.random());
+
+const randomNum = Math.floor(Math.random() * 10) + 1
+<br/>
+console.log(randomNum);
+
+function getRandomNumber(min,max) {
+<br/>
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+console.log(getRandomNumber(5,10));
+<br/>
+console.log(getRandomNumber(5,10));
+
+# Project: random dice roller & game score tracker 
+
