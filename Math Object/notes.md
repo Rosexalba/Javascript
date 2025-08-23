@@ -136,4 +136,15 @@ console.log(getRandomNumber(5,10));
 console.log(getRandomNumber(5,10));
 
 # Project: random dice roller & game score tracker 
+- uses math.random to generate random dice rolls
+- uses and object the score tracker to store the count of each number
+- uses loops
+   1. (for loop) to roll the dice multiple times
+   2. (for in) to display score results
+
+# Key Takeaways
+ - we went over math methods to help with calculations with round, floor, ceil, pow, square root 
+ - generarating random numbers is done using math.random
+ - and we built a dice roller and the score tracker using loops and objects
+
 
