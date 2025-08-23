@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Example</title>
+</head>
+<body>
+    <h1 id="main-heading">Welcome to Javascript</h1>
+    <p class="description">This is a paragraph1</p>
+    <p class="description">This is a paragraph2</p>
+    <p class="description">This is a paragraph3</p>
+    
+    <button onclick= "changeText()">Click Me</button>
+    <script>
+        function changeText() {
+            document.getElementById("main-heading").textContent = 
+            "DOM Manipulation is awesome.";
+        }
+
+        console.log(document.getElementById("main-heading").textContent)
+
+        const paragraphs = document.getElementsByClassName("description")
+        console.log("paragraphs=", paragraphs);
+        console.log('paragraphs[0].textContent=', paragraphs [0].textContent);
+
+        const buttons = document.getElementsByTagName("button");
+        console.log("buttons =", buttons);
+
+        const firstParagraph = document.querySelector(".description");
+        console.log(firstParagraph.textContent);
+        
+        const allParagraphs = document.querySelectorAll(".description");
+        allParagraphs.forEach((para) => console.log(para.textContent));
+    </script>
+</body>
+</html>
