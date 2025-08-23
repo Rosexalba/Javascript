@@ -60,4 +60,24 @@ If you want all of them:
 const allParagraphs = document.querySelectorAll(".description");
 <br/>
         allParagraphs.forEach((para) => console.log(para.textContent));
+
+
+#  Modifying Elements 
+const heading = document.getElementById("main-heading");
+
+1.  textContent : change text of header
+ heading.textContent = "NEW HEADING";
+
+2. innerHTML : change style of header 
+ heading.innerHTML = "< span style='color: red'>styled< /span>heading"
+
+3. style : change style using .style
+
+        heading.style.color = "blue";
+<br/>
+        heading.style.fontSize = "24px";
+<br/>
+        heading.style.textAlign = "Center";
+
+- youll notice these styling properties are very much like Css but they're camel cased and theres not hypen in the middle. not kabob cased.
         
