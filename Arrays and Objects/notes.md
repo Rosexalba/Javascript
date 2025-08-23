@@ -6,15 +6,15 @@ What you wil learn:
  - Object methods and property access
  - mini project: student management system 
 
- # Declaring and manipulating Arrays 
+ 1. # Declaring and manipulating Arrays 
  
  ## Array:
- and array is a special variable that stores multiple values in a single variable
+Array is a special variable that stores multiple values in a single variable
 
 const fruits = ["Apple", "banana", "Cherry"];
 console.log(fruits); // Output: ["Apple", "banana", "Cherry"];
 
-# accesing the array element: 
+## Access the array element: 
 Arrays are 0 indexed - zero is the first item
 so if you console.log fruits at the zero index youll see that it says apple
 
@@ -25,7 +25,7 @@ so if you console.log fruits at the zero index youll see that it says apple
     - console.log(fruits[2]);
 
 
-# Changing array elements: 
+## Changing array elements: 
 modify array values directly 
 
     - console.log(fruits[1]); // output: banana 
@@ -35,11 +35,11 @@ modify array values directly
       fruits[ 1] = "Blueberry"
       console.log(fruits);
 
- # Finding the length of an Array:
+ ## Finding the length of an Array:
 
      console.log(fruits.length); // Output:3
 
-# array methods
+## array methods
 1. Push: adds to the end of the array and it adds a new element at the end of an array
 2. Pop: removes the end of the array removes the last element in the array
 3. Shift: removes from the beginning of an array it removes the first element of the array
@@ -88,5 +88,43 @@ modify array values directly
     -  console.log(evenNumbers) // using the example above to complete this. with the filter method we are filtering out the outputs we desire // outputs will be (2,4)
 
 
-# Declaring and Manipulating objects
+2. # Declaring and Manipulating objects
+ 
+ ## Object:
+ an object stores data as key value pairs 
+ think of key as a label and the value of what its labeling in the example below the key is name (label) and the value is Alice (What its labeling)
+
+ - const person = {
+    - name: "Alice",
+    - age: 25,
+    - city: "New York",
+};
+
+- console.log(person);
+
+## Access Object:
+use dot notation
+console.log(person.name); // output: Alice
+
+## adding a property
+using .notation
+
+person.country = "USA" // output: country: USA
+console.log(person);
+
+## Updating a property
+person.age = 30
+console.log(person); // output: person: 30
+
+## removing properties 
+delete person.city
+console.log(person);
+
+# Looping through objects with (for...in)
+
+- for (const key in person) {
+    - console.log["key=", key]
+    - console.log("value =", person[ key])
+}
+
 
