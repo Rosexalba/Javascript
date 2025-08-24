@@ -80,4 +80,45 @@ const heading = document.getElementById("main-heading");
         heading.style.textAlign = "Center";
 
 - youll notice these styling properties are very much like Css but they're camel cased and theres not hypen in the middle. not kabob cased.
-        
+
+# Creating, Adding, and Removing Elements with JavaScript
+1. Add
+ const newParagraph = document.createElement("p")
+ <br/>
+        newParagraph.textContent = "THIS IS A NEW PARAGRAPH"
+
+        document.body.appendChild(newParagraph)
+
+ 2. Remove 
+ document.querySelector("button").addEventListener("click", function () {
+ <br/>   
+            document.body.removeChild(newParagraph);
+        });       
+
+- now when you click the button you the paragraph will dissapear 
+
+# Adding and removing classes
+1. add
+const heading = document.getElementById("main-heading");
+<br/>
+      heading.classList.add("highlight");
+
+2. remove      
+ocument.querySelector("button").addEventListener("click", function () {
+<br/>
+            heading.classList.remove("highlight");
+        });
+
+
+# Modifying Attributes with JavaScript 
+- adding link 
+
+  const link = document.createElement ("a")
+  <br/>
+    link.setAttribute("href", "https://google.com");
+    <br/>
+    link.setAttribute("Target", "_blank");
+    <br/>
+    link.textContent = "VISIT WEBSITE";
+    <br/>
+    document.body.appendChild(link);

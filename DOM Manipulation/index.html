@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM Example</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+            color: black;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <h1 id="main-heading">Welcome to Javascript</h1>
@@ -18,23 +25,23 @@
             "DOM Manipulation is awesome.";
         }
 
-        // console.log(document.getElementById("main-heading").textContent)
+        console.log(document.getElementById("main-heading").textContent)
 
-        // const paragraphs = document.getElementsByClassName("description")
-        // console.log("paragraphs=", paragraphs);
-        // console.log('paragraphs[0].textContent=', paragraphs [0].textContent);
+        const paragraphs = document.getElementsByClassName("description")
+        console.log("paragraphs=", paragraphs);
+        console.log('paragraphs[0].textContent=', paragraphs [0].textContent);
 
-        // const buttons = document.getElementsByTagName("button");
-        // console.log("buttons =", buttons);
+        const buttons = document.getElementsByTagName("button");
+        console.log("buttons =", buttons);
 
-        // const firstParagraph = document.querySelector(".description");
-        // console.log(firstParagraph.textContent);
+        const firstParagraph = document.querySelector(".description");
+        console.log(firstParagraph.textContent);
         
-        // const allParagraphs = document.querySelectorAll(".description");
-        // allParagraphs.forEach((para) => console.log(para.textContent));
+        const allParagraphs = document.querySelectorAll(".description");
+        allParagraphs.forEach((para) => console.log(para.textContent));
 
         
-        //MODIFY ELEMENTS 
+        // MODIFY ELEMENTS 
         const heading = document.getElementById("main-heading");
         heading.textContent = "NEW HEADING";
 
@@ -44,8 +51,33 @@
         heading.style.fontSize = "24px";
         heading.style.textAlign = "Center";
 
+         
+        // ADDING / REMOVING ELEMETNS
 
-        
+        const newParagraph = document.createElement("p")
+        newParagraph.textContent = "THIS IS A NEW PARAGRAPH"
+
+        document.body.appendChild(newParagraph)
+
+        document.querySelector("button").addEventListener("click", function () {
+            document.body.removeChild(newParagraph);
+        });
+
+      const heading = document.getElementById("main-heading");
+      heading.classList.add("highlight");
+
+       document.querySelector("button").addEventListener("click", function () {
+            heading.classList.remove("highlight");
+        });
+
+
+    const link = document.createElement ("a")
+    link.setAttribute("href", "https://google.com");
+    link.setAttribute("Target", "_blank");
+    link.textContent = "VISIT WEBSITE";
+    document.body.appendChild(link);
+
+
     </script>
 </body>
 </html>
