@@ -16,7 +16,7 @@ async function fetchData() {
        loadingText.style.display = "none";
        dataText.textContent = "Error loading data";
     } finally {
-        loadingText.style.display = "none";
+        loadingText.style.display = "none"; xx
 
     }
 }
